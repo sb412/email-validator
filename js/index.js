@@ -5,7 +5,7 @@ submitBtn.addEventListener("click", async (e) => {
     console.log("Clicked!")
     resultCont.innerHTML = `<img width = "123" src="img/loading.svg" alt="pqr">`
 
-    let key  = "ema_live_xEniyB9hgdAnEeXPUUv1OFuSdCGLFebqbWkhVECb"
+    let key  = "YOUR_API_KEY"
     let email = document.getElementById("username").value
 
     let url = `https://api.emailvalidation.io/v1/info?apikey=${key}&email=${email}`
